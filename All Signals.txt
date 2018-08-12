@@ -1,0 +1,7 @@
+Vin_AfterSafety			//Voltage Input
+MosOn					//Mosfet controlling signal
+Reset					//Reset signal
+Vreg_3V3_HOT			//3.3V after startupt
+Vreg_1V2_HOT			//1.2V after startupt
+Vreg_3V0_HOT			//3.0V after startupt
+Vreg_1V5_HOT			//1.5V after startupt
