@@ -1,10 +1,55 @@
 Globals:
 	Vin_AfterSafety			//Voltage Input
-	Reset					//Reset signal
+	Reset				//Reset signal
 	Vreg_3V3_HOT			//3.3V after startupt
 	Vreg_1V2_HOT			//1.2V after startupt
 	Vreg_3V0_HOT			//3.0V after startupt
 	Vreg_1V5_HOT			//1.5V after startupt
 Locals:
 	PWR:
-		MosOn				//Mosfet control
+		MosOn			//Mosfet control
+		
+	RAM:
+		SDQ0 ... SDQ15		//RAM Data Bus
+		SA0 ... SA14		//RAM Address Bus
+		SDQSL(pair)		//RAM DQSL DP
+		SDQSU(pair)		//RAM DQSU DP
+		SDML			//RAM DML
+		SDMU			//RAM DMU
+		SCK, SCK#, SCKE0	//RAM Clock, Inverted Clock, Enable
+		SBA0 ... SBA2		//RAM Bank Select
+		SWE			//RAM Write
+		SCAS			//RAM Column Strobe
+		SRAS			//RAM Row Strobe
+		SCS			//RAM Chip Select
+		SODT			//RAM ODT
+		SZQ			//RAM Zero Calibration
+		SRST			//RAM Reset
+	
+	USB:
+		USB0(pair)		//USB0 (OTG) DP
+		USB1(pair)		//USB1 DP
+		USB2(pair)		//USB2 DP
+		USBOTG_ID		//USB OTG ID pin
+		
+	HDMI:
+		HTX0(pair)		//HDMI TX0 DP
+		HTX1(pair)		//HDMI TX1 DP
+		HTX2(pair)		//HDMI TX2 DP
+		HTXC(pair)		//HDMI TX Clock DP
+		HSCL			//HDMI SCL
+		HSDA			//HDMI SDA
+		
+	Ethernet:
+		ETXD0 ... ETXD3		//ETH TX Data
+		ERXD0 ... ERXD3		//ETH RX Data
+		ETXCK			//ETH TX Clock
+		ETXEN			//ETH TX Enable
+		ERXCK			//ETH RX Clock
+		ERXER			//ETH RX Error
+		ERXDV			//ETH RX Data Validation
+		ECOL			//ETH Collision
+		ECRS			//ETH Carrier Sense
+		EMDC			//ETH MNG Data
+		EMDIO			//ETH MNG IO
+		ERST			//ETH Reset
