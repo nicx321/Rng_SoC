@@ -49,12 +49,12 @@ $EndDescr
 $Comp
 L AP1117-33 U?
 U 1 1 5B706FF8
-P 6300 3300
-F 0 "U?" H 6150 3425 50  0000 C CNN
-F 1 "AP1117-33" H 6300 3425 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 6300 3500 50  0001 C CNN
-F 3 "" H 6400 3050 50  0001 C CNN
-	1    6300 3300
+P 6300 3150
+F 0 "U?" H 6150 3275 50  0000 C CNN
+F 1 "AP1117-33" H 6300 3275 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223-3Lead_TabPin2" H 6300 3350 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6300 3150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -82,12 +82,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5B7072C9
-P 6300 3600
-F 0 "#PWR?" H 6300 3350 50  0001 C CNN
-F 1 "GND" H 6300 3450 50  0000 C CNN
-F 2 "" H 6300 3600 50  0001 C CNN
-F 3 "" H 6300 3600 50  0001 C CNN
-	1    6300 3600
+P 6300 3450
+F 0 "#PWR?" H 6300 3200 50  0001 C CNN
+F 1 "GND" H 6300 3300 50  0000 C CNN
+F 2 "" H 6300 3450 50  0001 C CNN
+F 3 "" H 6300 3450 50  0001 C CNN
+	1    6300 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -103,7 +103,7 @@ F 3 "" H 6300 5000 50  0001 C CNN
 $EndComp
 Text GLabel 6000 4700 0    60   Input ~ 0
 Vin_AfterSafety
-Text GLabel 6000 3300 0    60   Input ~ 0
+Text GLabel 6000 3150 0    60   Input ~ 0
 Vin_AfterSafety
 Text GLabel 6000 6300 0    60   Input ~ 0
 Vin_AfterSafety
@@ -132,12 +132,12 @@ $EndComp
 $Comp
 L CP 100u
 U 1 1 5B708149
-P 6800 3450
-F 0 "100u" H 6825 3550 50  0000 L CNN
-F 1 "CP" H 6825 3350 50  0000 L CNN
-F 2 "" H 6838 3300 50  0001 C CNN
-F 3 "" H 6800 3450 50  0001 C CNN
-	1    6800 3450
+P 6800 3300
+F 0 "100u" H 6825 3400 50  0000 L CNN
+F 1 "CP" H 6825 3200 50  0000 L CNN
+F 2 "" H 6838 3150 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -154,12 +154,12 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 5B708345
-P 6800 3600
-F 0 "#PWR?" H 6800 3350 50  0001 C CNN
-F 1 "GND" H 6800 3450 50  0000 C CNN
-F 2 "" H 6800 3600 50  0001 C CNN
-F 3 "" H 6800 3600 50  0001 C CNN
-	1    6800 3600
+P 6800 3450
+F 0 "#PWR?" H 6800 3200 50  0001 C CNN
+F 1 "GND" H 6800 3300 50  0000 C CNN
+F 2 "" H 6800 3450 50  0001 C CNN
+F 3 "" H 6800 3450 50  0001 C CNN
+	1    6800 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -277,12 +277,12 @@ $EndComp
 $Comp
 L Q_PMOS_GDS Q?
 U 1 1 5B70A66D
-P 7500 3400
-F 0 "Q?" H 7700 3450 50  0000 L CNN
-F 1 "Q_PMOS_GDS" H 7700 3350 50  0000 L CNN
-F 2 "" H 7700 3500 50  0001 C CNN
-F 3 "" H 7500 3400 50  0001 C CNN
-	1    7500 3400
+P 7500 3250
+F 0 "Q?" H 7700 3300 50  0000 L CNN
+F 1 "Q_PMOS_GDS" H 7700 3200 50  0000 L CNN
+F 2 "" H 7700 3350 50  0001 C CNN
+F 3 "" H 7500 3250 50  0001 C CNN
+	1    7500 3250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -307,7 +307,7 @@ F 3 "" H 7500 8200 50  0001 C CNN
 	1    7500 8200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8100 3300 2    60   Input ~ 0
+Text GLabel 8100 3150 2    60   Input ~ 0
 Vreg_3V3_HOT
 Text GLabel 8100 4700 2    60   Input ~ 0
 Vreg_1V2_HOT
@@ -442,16 +442,6 @@ F 3 "" H 7500 4800 50  0001 C CNN
 	1    7500 4800
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7500 8400 3    60   Input ~ 0
-MosOn
-Text GLabel 11700 4400 0    60   Input ~ 0
-MosOn
-Text GLabel 7500 6600 3    60   Input ~ 0
-MosOn
-Text GLabel 7500 5000 3    60   Input ~ 0
-MosOn
-Text GLabel 7500 3600 3    60   Input ~ 0
-MosOn
 $Comp
 L Jack-DC J?
 U 1 1 5B70E00B
@@ -537,7 +527,7 @@ Connection ~ 6750 6300
 Wire Wire Line
 	6600 4700 7300 4700
 Wire Wire Line
-	6600 3300 7300 3300
+	6600 3150 7300 3150
 Wire Wire Line
 	7050 7050 7050 6800
 Wire Wire Line
@@ -556,7 +546,7 @@ Wire Wire Line
 Connection ~ 6750 8100
 Wire Wire Line
 	7050 8850 7050 8600
-Connection ~ 6800 3300
+Connection ~ 6800 3150
 Connection ~ 6800 4700
 Connection ~ 7050 6300
 Connection ~ 7050 8100
@@ -567,7 +557,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4700 7700 4700
 Wire Wire Line
-	7700 3300 8100 3300
+	7700 3150 8100 3150
 Wire Wire Line
 	14450 4950 14450 4900
 Wire Wire Line
@@ -624,9 +614,7 @@ Connection ~ 2350 5350
 Wire Wire Line
 	3000 5350 2850 5350
 Wire Notes Line
-	5150 4150 9150 4150
-Wire Notes Line
-	9150 4150 9150 5450
+	9150 4000 9150 5450
 Wire Notes Line
 	9150 5450 5150 5450
 Wire Notes Line
@@ -660,17 +648,41 @@ Wire Notes Line
 Wire Notes Line
 	4250 4700 4250 5900
 Wire Notes Line
-	5150 4050 9150 4050
+	5150 3900 9150 3900
 Wire Notes Line
-	9150 4050 9150 2650
+	9150 3900 9150 2500
 Wire Notes Line
-	9150 2650 5150 2650
+	9150 2500 5150 2500
 Wire Notes Line
-	5150 2650 5150 4050
+	5150 2500 5150 3900
 Wire Notes Line
 	9150 7350 9150 5550
 Wire Notes Line
 	9150 5550 5150 5550
 Wire Notes Line
 	5150 5550 5150 5650
+Wire Notes Line
+	5150 4200 5150 4000
+Wire Notes Line
+	5150 4000 9150 4000
+Wire Wire Line
+	11250 4400 11700 4400
+Text Label 11250 4400 0    60   ~ 0
+MosOn
+Wire Wire Line
+	7500 8400 7500 8800
+Text Label 7500 8800 1    60   ~ 0
+MosOn
+Wire Wire Line
+	7500 6600 7500 6950
+Text Label 7500 6950 1    60   ~ 0
+MosOn
+Wire Wire Line
+	7500 5000 7500 5300
+Text Label 7500 5300 1    60   ~ 0
+MosOn
+Wire Wire Line
+	7500 3450 7500 3800
+Text Label 7500 3800 1    60   ~ 0
+MosOn
 $EndSCHEMATC
