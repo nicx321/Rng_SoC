@@ -58,3 +58,4 @@ Locals:
 		SDD0 ... SDD3		//SD Data
 		SDCLK			//SD Clock
 		SDCMD			//SD Command
+		SDDET			//SD Detect
