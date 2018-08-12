@@ -53,3 +53,8 @@ Locals:
 		EMDC			//ETH MNG Data
 		EMDIO			//ETH MNG IO
 		ERST			//ETH Reset
+		
+	SD Card:
+		SDD0 ... SDD3		//SD Data
+		SDCLK			//SD Clock
+		SDCMD			//SD Command
